@@ -1,5 +1,5 @@
 {
-    "name": "contao-community-alliance/composer-client",
+    "name": "designs2/composer-client",
     "type": "contao-module",
     "description": "The contao composer client.",
     "keywords": [
@@ -29,15 +29,15 @@
         }
     },
     "require": {
-        "php": ">=5.3.4",
+        "php": ">=5.3.3",
         "contao/core": ">=2.11,<5-dev",
-        "contao-community-alliance/composer-plugin": "~2.2"
+        "contao-community-alliance/composer-plugin": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=3.7.10,<4-dev",
-        "squizlabs/php_codesniffer": "~1.0",
-        "phpmd/phpmd": "~2.0",
-        "contao-community-alliance/build-system-tool-branch-alias-validation": "~1.0"
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "*",
+        "contao-community-alliance/build-system-tool-branch-alias-validation": "*"
     },
     "replace": {
         "contao-community-alliance/composer": "self.version"
